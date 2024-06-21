@@ -1,0 +1,25 @@
+{
+  "name": "pmcharts",
+  "version": "1.0.0",
+  "description": "pmcharts is a collection of customizable chart components for React using HTML Canvas.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashijha1617/pmcharts.git"
+  },
+  "keywords": [
+    "npm",
+    "chart",
+    "react",
+    "canvas",
+    "Area Chart",
+    "Bar Chart",
+    "Line Chart",
+    "Pie Chart",
+    "Redar Chart",
+    "Sparkline Chart"
+  ],
+  "author": "Shashi Kumar Jha",
+  "license": "MIT",
+  "homepage": "https://github.com/Shashijha1617/pmcharts#readme"
+}
