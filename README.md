@@ -13,17 +13,19 @@ pmcharts is a collection of customizable chart components for React using HTML C
 ### You can install pmcharts using npm:
 ```npm install pmcharts --save```
 
+Props:
+* data (array): Array of objects with label and value.
+* width (number): Width of the chart in pixels.
+* height (number): Height of the chart in pixels.
+* color (string, optional): Color of the sparkline.
 
 ## Components
 
 ### BarChart
 A customizable bar chart component.
 
-Props:
-* data (array): Array of objects with label and value.
-* width (number): Width of the chart in pixels.
-* height (number): Height of the chart in pixels.
-* color (string, optional): Color of the sparkline.
+![Bar Chart](./src/Assets/Bar.png)
+
 
 ### Example: 
 `code`
@@ -51,6 +53,8 @@ Props:
 ### AreaChart
 A customizable area chart component.
 
+![Area Chart](./src/Assets/Area.png)
+
 ### Example: 
 `code` 
     
@@ -75,6 +79,8 @@ A customizable area chart component.
     export default MyAreaChart; 
 ### RadarChart
 A customizable radar chart component.
+
+![Redar Chart](./src/Assets/Redar.png)
 
 ### Example: 
 `code`
@@ -101,6 +107,8 @@ A customizable radar chart component.
 ### PieChart
 A customizable pie chart component.
 
+![Pie Chart](./src/Assets/Pie.png)
+
 ### Example: 
 `code`
  
@@ -126,6 +134,8 @@ A customizable pie chart component.
 
 ### SparklineChart
 A customizable sparkline chart component.
+
+![Sparkline Chart](./src/Assets/Sparkline.png)
 
 ### Example: 
 `code`
